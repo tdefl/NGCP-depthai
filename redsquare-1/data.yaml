@@ -1,0 +1,12 @@
+names:
+- RedSquare
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: redsquare-gwdyn
+  url: https://universe.roboflow.com/senior-project-zxtg1/redsquare-gwdyn/dataset/1
+  version: 1
+  workspace: senior-project-zxtg1
+test: ../test/images
+train: redsquare-1/train/images
+val: redsquare-1/valid/images
