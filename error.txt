@@ -1,0 +1,20 @@
+ngcp@NGCPnano:~/Desktop/yolov5$ python3 detect.py --source 0
+Traceback (most recent call last):
+  File "/home/ngcp/Desktop/yolov5/detect.py", line 45, in <module>
+    from models.common import DetectMultiBackend
+  File "/home/ngcp/Desktop/yolov5/models/common.py", line 24, in <module>
+    from IPython.display import display
+  File "/home/ngcp/.local/lib/python3.12/site-packages/IPython/__init__.py", line 55, in <module>
+    from .terminal.embed import embed
+  File "/home/ngcp/.local/lib/python3.12/site-packages/IPython/terminal/embed.py", line 15, in <module>
+    from IPython.core.interactiveshell import DummyMod, InteractiveShell
+  File "/home/ngcp/.local/lib/python3.12/site-packages/IPython/core/interactiveshell.py", line 97, in <module>
+    from IPython.core.history import HistoryManager
+  File "/home/ngcp/.local/lib/python3.12/site-packages/IPython/core/history.py", line 11, in <module>
+    import sqlite3
+  File "/usr/local/lib/python3.12/sqlite3/__init__.py", line 57, in <module>
+    from sqlite3.dbapi2 import *
+  File "/usr/local/lib/python3.12/sqlite3/dbapi2.py", line 27, in <module>
+    from _sqlite3 import *
+ModuleNotFoundError: No module named '_sqlite3'
+
