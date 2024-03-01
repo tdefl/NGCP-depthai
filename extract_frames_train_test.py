@@ -15,4 +15,4 @@ for video_path in tqdm(TRAIN_VIDEO_PATHS):
     image_name_pattern = video_name + "-{:05d}.png"
     with sv.ImageSink(target_dir_path=IMAGE_DIR_PATH, image_name_pattern=image_name_pattern) as sink:
         for image in sv.get_video_frames_generator(source_path=str(video_path), stride=FRAME_STRIDE):
-            sink.save_image(image=image)
+            sink.save_image(image=image) 
