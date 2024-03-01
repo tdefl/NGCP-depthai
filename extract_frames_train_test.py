@@ -1,5 +1,6 @@
 # sudo apt-get install libgl1-mesa-glx
-
+# this fixed missing library issue on ubuntu wsl. however macbook is still failing and saying 
+# supervision module cannot be found/resolved
 import os
 import supervision as sv
 from tqdm import tqdm
