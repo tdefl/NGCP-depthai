@@ -1,5 +1,6 @@
-import os
+# sudo apt-get install libgl1-mesa-glx
 
+import os
 import supervision as sv
 from tqdm import tqdm
 import gdown  # for downloading from google drive
