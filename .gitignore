@@ -66,3 +66,6 @@ recordings/
 
 # PyPi token
 .pypirc
+
+# mp4 video
+red_square.mp4
