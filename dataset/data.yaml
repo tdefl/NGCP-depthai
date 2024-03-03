@@ -1,0 +1,5 @@
+names:
+- null
+nc: 1
+train: /root/NGCP/NGCP-depthai/NGCP-depthai/dataset/train/images
+val: /root/NGCP/NGCP-depthai/NGCP-depthai/dataset/valid/images
