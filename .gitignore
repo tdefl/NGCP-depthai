@@ -30,7 +30,9 @@ share/python-wheels/
 MANIFEST
 *.idea
 # DepthAI-Specific
-*dataset*
+# dataset was previously ignored, this is why it didnt push the autodistill results stored in dataset/
+# i have now commented out the line: *dataset*
+# *dataset*
 .fw_cache/
 depthai.calib
 mesh_left.calib
